@@ -1,0 +1,30 @@
+{
+  "name": "sp-booking",
+  "version": "1.0.0",
+  "description": "Spill Coding Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrisonConeboy/sp-booking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrisonConeboy/sp-booking/issues"
+  },
+  "homepage": "https://github.com/HarrisonConeboy/sp-booking#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "sqlstring": "^2.3.2"
+  }
+}
