@@ -18,6 +18,7 @@
 - Testing the endpoints was done via the third party app - `POSTMAN` alongside manual observations
 
 ## Instructions
+- First install dependencies with `npm install`
 - Run the server using `node src/server` or `npm start` within the root directory, this will run the server on `http://localhost:5000`. 
 - To view available times send a `GET` request to `http://localhost:5000/api/:date_range/:aptType/:aptMedium` with the appropriate parameters in the URL.
 - date_range should be of the form: `date1,date2`
